@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="711.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainApp.NumberOfUsersSceneController">
+   <center>
+      <AnchorPane prefHeight="550.0" prefWidth="687.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <BarChart fx:id="userBarChart" layoutX="92.0" layoutY="31.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" fx:id="xAxis" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis fx:id="yAxis" side="LEFT" />
+              </yAxis>
+            </BarChart>
+            <Button layoutX="163.0" layoutY="461.0" mnemonicParsing="false" onAction="#existOnclick" style="-fx-background-color: TURQUOISE;" text="Back" />
+            <Button layoutX="465.0" layoutY="461.0" mnemonicParsing="false" onAction="#RefreshOnClick" style="-fx-background-color: TURQUOISE;" text="Refresh" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

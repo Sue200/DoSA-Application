@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="598.0" style="-fx-background-color: LIGHTSTEELBLUE;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainApp.AdministrativeSceneController">
+   <children>
+      <Text fill="#3f1717" layoutX="145.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADMINISTRATION WORKPLACE">
+         <font>
+            <Font name="Bell MT Bold" size="19.0" />
+         </font></Text>
+      <Button layoutX="257.0" layoutY="360.0" mnemonicParsing="false" onAction="#goBackbuttonOnclick" prefHeight="25.0" prefWidth="63.0" style="-fx-border-color: #3f1717;" text="Back" textFill="#3f1717" />
+      <HBox layoutX="-2.0" layoutY="75.0" prefHeight="277.0" prefWidth="600.0" style="-fx-background-color: white;">
+         <children>
+          <TitledPane animated="false" style="-fx-background-color: white;" text="Event Report" textFill="#3f1717">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="261.0" prefWidth="199.0" style="-fx-background-color: white;">
+                     <children>
+                        <Button layoutX="42.0" layoutY="116.0" mnemonicParsing="false" onAction="#viewEventReportSceneOnClick" prefWidth="93.0" style="-fx-border-color: #3f1717;" text="View Report" />
+                        <Text layoutX="18.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="View reports of the number of students registered for each events" wrappingWidth="161.06968688964844">
+                           <font>
+                              <Font name="Bell MT" size="12.0" />
+                           </font></Text>
+                        <Text layoutX="18.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click the button below:">
+                           <font>
+                              <Font name="Bell MT" size="12.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="Add Event" textFill="#3f1717">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="276.0" prefWidth="201.0" style="-fx-background-color: white;">
+                     <children>
+                        <Button layoutX="54.0" layoutY="109.0" mnemonicParsing="false" onAction="#openEventSceneOnclick" prefHeight="25.0" prefWidth="79.0" style="-fx-border-color: #3f1717;" text="Event" />
+                        <Text layoutX="5.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Keep the users upto date with the ongoing events and notices" wrappingWidth="172.076171875">
+                           <font>
+                              <Font name="Bell MT" size="12.0" />
+                           </font></Text>
+                        <Button layoutX="54.0" layoutY="146.0" mnemonicParsing="false" onAction="#openNoticeSceneOnClick" prefHeight="25.0" prefWidth="77.0" style="-fx-border-color: #3f1717;" text="Notice" />
+                        <Text layoutX="14.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click the buttons below:" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" prefHeight="277.0" prefWidth="197.0" style="-fx-background-color: white;" text="Update Merit List" textFill="#3f1717">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="229.0" prefWidth="195.0" style="-fx-background-color: white;">
+                     <children>
+                        <Button layoutX="45.0" layoutY="106.0" mnemonicParsing="false" onAction="#openAddMeritList" style="-fx-border-color: #3f1717;" text="Upload merit list" />
+                        <Text layoutX="3.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To update the merit list, click the button below:" wrappingWidth="184.5547332763672" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

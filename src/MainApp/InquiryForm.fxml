@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="622.0" prefWidth="521.0" style="-fx-background-color: white; -fx-border-color: #aa7b36; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainApp.InquiryFormController">
+   <children>
+      <Text layoutX="37.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inquiry Form">
+         <font>
+            <Font name="MS Reference Sans Serif" size="28.0" />
+         </font>
+      </Text>
+      <Separator layoutX="8.0" layoutY="92.0" prefHeight="11.0" prefWidth="505.0" style="-fx-background-color: white;" />
+      <Text layoutX="37.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We will get in touch with you as soon as possible.">
+         <font>
+            <Font name="Microsoft JhengHei Light" size="12.0" />
+         </font>
+      </Text>
+      <Label layoutX="37.0" layoutY="139.0" text="Your Name :">
+         <font>
+            <Font name="Californian FB Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="297.0" layoutY="139.0" text="IUB ID: ">
+         <font>
+            <Font name="Californian FB Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="37.0" layoutY="173.0" text="Email Address : ">
+         <font>
+            <Font name="Californian FB Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="37.0" layoutY="203.0" text="Department:">
+         <font>
+            <Font name="Californian FB Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="297.0" layoutY="173.0" text="Phone number :">
+         <font>
+            <Font name="Californian FB Bold" size="12.0" />
+         </font></Label>
+      <Separator layoutX="11.0" layoutY="241.0" prefHeight="3.0" prefWidth="498.0" />
+      <Text layoutX="31.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Personnal Information">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <TextField fx:id="deptTextfield" layoutX="140.0" layoutY="203.0" minHeight="-Infinity" prefHeight="17.0" prefWidth="110.0" promptText="Ex: 5th Semester" />
+      <TextField fx:id="PhoneNumber" layoutX="397.0" layoutY="173.0" minHeight="-Infinity" prefHeight="17.0" prefWidth="110.0" promptText="123456" />
+      <Text layoutX="38.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact Informations">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <Label layoutX="38.0" layoutY="308.0" text="Physical Address :">
+         <font>
+            <Font name="Californian FB Bold" size="12.0" />
+         </font></Label>
+      <TextArea fx:id="AddressTextfield" layoutX="151.0" layoutY="286.0" prefHeight="85.0" prefWidth="277.0" promptText="Write your house no, road no etc." />
+      <Separator layoutX="11.0" layoutY="383.0" prefHeight="11.0" prefWidth="498.0" />
+      <Text layoutX="40.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inquiry Details">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <Label layoutX="40.0" layoutY="429.0" text="Leave Your Inquiry :">
+         <font>
+            <Font name="Californian FB Bold" size="12.0" />
+         </font></Label>
+      <TextArea fx:id="inquiryTextfield" layoutX="40.0" layoutY="453.0" prefHeight="99.0" prefWidth="403.0" promptText="Write here your inquiry in details." />
+      <Button fx:id="submitbutton" layoutX="168.0" layoutY="570.0" mnemonicParsing="false" onAction="#SubmitInquiryButton" style="-fx-background-color: wheat;" text="Submit" />
+      <Button layoutX="264.0" layoutY="570.0" mnemonicParsing="false" onAction="#ClearformButton" prefHeight="25.0" prefWidth="54.0" style="-fx-background-color: wheat;" text="Clear" />
+      <Button layoutX="411.0" layoutY="49.0" mnemonicParsing="false" onAction="#goBackOnClick" prefHeight="25.0" prefWidth="54.0" style="-fx-background-color: wheat;" text="Back" />
+      <Label fx:id="nameLabel" layoutX="137.0" layoutY="139.0" text="Label" />
+      <Label fx:id="idLabel" layoutX="383.0" layoutY="137.0" text="Label" />
+      <Label fx:id="emailLabel" layoutX="137.0" layoutY="173.0" text="Label" />
+   </children>
+</AnchorPane>

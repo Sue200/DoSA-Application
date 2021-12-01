@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="-3.0" prefHeight="73.0" prefWidth="607.0" style="-fx-background-color: #3b5a9f;">
+         <children>
+            <Text fill="WHITE" layoutX="160.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fill up informations for Faculty">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Label layoutX="99.0" layoutY="109.0" text="Office Room::" />
+      <Label layoutX="99.0" layoutY="146.0" text="Position:" />
+      <Label layoutX="99.0" layoutY="192.0" text="Phone Number:" />
+      <Label layoutX="99.0" layoutY="243.0" prefHeight="7.0" prefWidth="83.0" text="Age:" />
+      <Label layoutX="99.0" layoutY="304.0" text="Office hours:" />
+      <Label layoutX="99.0" layoutY="350.0" />
+      <TextField layoutX="311.0" layoutY="105.0" />
+      <ComboBox layoutX="311.0" layoutY="142.0" prefWidth="150.0" />
+      <TextField layoutX="312.0" layoutY="180.0" />
+      <TextField layoutX="311.0" layoutY="239.0" />
+      <TextField layoutX="312.0" layoutY="300.0" />
+      <Button layoutX="193.0" layoutY="355.0" mnemonicParsing="false" text="Add New Faculty" />
+      <Button layoutX="334.0" layoutY="355.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="106.0" text="Clear" />
+   </children>
+</AnchorPane>

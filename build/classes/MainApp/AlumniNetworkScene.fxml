@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="573.0" prefWidth="686.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainApp.AlumniNetworkSceneController">
+   <children>
+      <Accordion layoutX="27.0" layoutY="116.0" prefHeight="382.0" prefWidth="236.0">
+        <panes>
+          <TitledPane animated="false" prefWidth="162.0" text="What is Alumni network?">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: LINEN;">
+                     <children>
+                        <Text layoutX="22.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Every educational institution has an alumni network, formal or not, and they’re used for a wide range of things. Alumni can build business connections, organize reunions, and serve as shining examples of the kind of people that their institution produces. It’s very useful for those who are genuinely interested in the lives of their old classmates and like to see what they’re up to." wrappingWidth="189.30536651611328">
+                           <font>
+                              <Font name="Times New Roman" size="15.0" />
+                           </font></Text>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="Why is it important?">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: LINEN;">
+                     <children>
+                        <Text layoutX="6.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A high-quality education will present numerous, sizable challenges that spark your intellectual and professional growth. By mastering those challenges together—or mastering the same challenges at different times—you and the other graduates of your program will develop a shared vocabulary of experience and personal development. You’ll know the skills and strengths required of someone who holds your degree, and your fellow alumni will know to credit you with those same attributes. This is all in addition to the subject-matter expertise which you’ll have in common, and the result is a strong sense that you know and can trust each other, even if you’ve not yet met." wrappingWidth="221.698588848114">
+                           <font>
+                              <Font name="Times New Roman" size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" prefWidth="236.0" style="-fx-background-color: LINEN;" text="How can I benefit?">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: LINEN;">
+                     <children>
+                        <Text layoutX="9.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alumni networks provide the long-term value to an educational institution by giving alumni the chance to stay in contact and continue to learn from each other long after they have left school.Support networks are hard to come by out there in the world and having a ready-made one full of people with shared experiences just waiting to connect is a luxury that few can afford to turn down. When you can, join your school’s alumni network." wrappingWidth="216.66663360595703">
+                           <font>
+                              <Font name="Times New Roman" size="15.0" />
+                           </font></Text>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+        </panes>
+      </Accordion>
+      <Separator layoutX="273.0" layoutY="116.0" orientation="VERTICAL" prefHeight="382.0" prefWidth="4.0" />
+      <ButtonBar layoutX="27.0" layoutY="533.0" prefHeight="31.0" prefWidth="598.0">
+        <buttons>
+            <Button fx:id="signUpButton" mnemonicParsing="false" onAction="#signUpOnClick" text="Sign Up" />
+            <CheckBox fx:id="checkButton" mnemonicParsing="false" prefHeight="17.0" text="All the above informations are accurate." />
+        </buttons>
+      </ButtonBar>
+      <GridPane layoutX="284.0" layoutY="100.0" prefHeight="409.0" prefWidth="392.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label prefHeight="17.0" prefWidth="53.0" text="Name:">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="ID:" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="Email:" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="Department:" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="Graduation Year:" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="Major:" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="Contact number:" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+            </Label>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Current working stautus:" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+            </Text>
+            <Label text="LinkedIn profile:" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="nameLabel" text="Label" GridPane.columnIndex="1" />
+            <Label fx:id="idLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="emailLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="dept" promptText="Enter your department. &quot;CSE&quot;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="gradYear" promptText="Enter the year you graduated" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField fx:id="major" promptText="Enter your major" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <TextField fx:id="phoneNo" promptText="880-xxxxxxxxx" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <TextArea fx:id="workingStatus" prefHeight="88.0" prefWidth="209.0" promptText="Write what you are currently upto " GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <TextField fx:id="linkedIn" prefHeight="25.0" prefWidth="209.0" promptText="Paste here your linkedIn profile link" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+         </children>
+      </GridPane>
+      <Pane prefHeight="91.0" prefWidth="686.0" style="-fx-background-color: NAVAJOWHITE;">
+         <children>
+            <Text layoutX="203.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alumni Network " textAlignment="CENTER" wrappingWidth="232.66666666666663">
+               <font>
+                  <Font name="Century Schoolbook" size="26.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

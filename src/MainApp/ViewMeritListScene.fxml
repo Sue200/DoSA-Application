@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainApp.ViewMeritListSceneController">
+   <children>
+      <ListView fx:id="mainMeritList" layoutX="346.0" layoutY="29.0" prefHeight="329.0" prefWidth="193.0" style="-fx-border-color: black;" />
+      <Button layoutX="129.0" layoutY="113.0" mnemonicParsing="false" onAction="#deanListOnClick" style="-fx-background-color: lightblue;" text="Dean's List" />
+      <Button layoutX="102.0" layoutY="200.0" mnemonicParsing="false" onAction="#viewVCList" style="-fx-background-color: lightblue;" text="Vice Chancellor's List" />
+      <Button layoutX="113.0" layoutY="151.0" mnemonicParsing="false" onAction="#viewDMlist" style="-fx-background-color: lightblue;" text="Dean's Merit List" />
+      <Text layoutX="86.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click on the buttons to view the list" wrappingWidth="185.90625">
+         <font>
+            <Font name="Bodoni MT Condensed" size="17.0" />
+         </font></Text>
+      <Text layoutX="79.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you think the there is any mistake then please send an email at 1234@iub.edu.bd" textAlignment="JUSTIFY" wrappingWidth="200.0">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font></Text>
+      <Text layoutX="8.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Award List" textAlignment="CENTER" wrappingWidth="327.33333333333337">
+         <font>
+            <Font name="Bell MT" size="22.0" />
+         </font>
+      </Text>
+      <Button layoutX="142.0" layoutY="335.0" mnemonicParsing="false" onAction="#goBackOnClick" prefHeight="25.0" prefWidth="59.0" style="-fx-background-color: tan;" text="Back" />
+      <Label fx:id="awardLabel" layoutX="411.0" layoutY="7.0" text="Award Type" />
+   </children>
+</AnchorPane>

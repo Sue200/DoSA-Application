@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="638.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainApp.JobCircularController">
+   <center>
+      <AnchorPane prefHeight="464.0" prefWidth="457.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="215.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Job Circulars">
+               <font>
+                  <Font name="Bell MT Bold" size="28.0" />
+               </font>
+            </Text>
+            <TableView fx:id="jobTableView" layoutY="105.0" prefHeight="200.0" prefWidth="638.0" style="-fx-background-color: white;">
+              <columns>
+                <TableColumn fx:id="jobColumn" prefWidth="134.66665136814117" text="Job " />
+                <TableColumn fx:id="orgColumn" prefWidth="130.6666717529297" text="Organization" />
+                  <TableColumn fx:id="dateColumn" prefWidth="133.3333740234375" text="Date" />
+                  <TableColumn fx:id="jobdescriptionColumn" prefWidth="239.33328247070312" text="Job Description" />
+              </columns>
+            </TableView>
+            <Button layoutX="251.0" layoutY="316.0" mnemonicParsing="false" onAction="#loadtableOnClick" prefHeight="25.0" prefWidth="109.0" style="-fx-background-color: TURQUOISE;" text="Load ">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <HBox layoutX="202.0" layoutY="383.0" prefHeight="27.0" prefWidth="207.0">
+               <children>
+                  <Button fx:id="deletebutton" mnemonicParsing="false" onAction="#deleteOnClick" prefHeight="25.0" text="Delete" />
+                  <Button mnemonicParsing="false" onAction="#newJobOnclick" text="Post new Job " />
+                  <Button mnemonicParsing="false" onAction="#backOnClick" prefHeight="25.0" prefWidth="66.0" text="Back" />
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

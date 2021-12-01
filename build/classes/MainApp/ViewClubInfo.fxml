@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="694.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainApp.ViewClubInfoController">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" layoutX="-2.0" layoutY="60.0" prefHeight="407.0" prefWidth="694.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Button layoutX="36.0" layoutY="155.0" mnemonicParsing="false" onAction="#viewDescriptionOnclick" text="View description" />
+                  <ComboBox fx:id="ViewClubBox" layoutX="13.0" layoutY="113.0" prefWidth="150.0" />
+                  <Button layoutX="62.0" layoutY="287.0" mnemonicParsing="false" onAction="#goBacktohome" prefHeight="25.0" prefWidth="54.0" text="Back " />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="405.0" prefWidth="441.0" style="-fx-background-color: white;">
+               <children>
+                  <TextArea fx:id="descriptionOfClubButton" layoutX="36.0" layoutY="88.0" prefHeight="228.0" prefWidth="289.0" />
+                  <Text layoutX="107.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Full description of club">
+                     <font>
+                        <Font name="Barlow Condensed Thin" size="17.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="136.0" layoutY="340.0" mnemonicParsing="false" onAction="#registerForClubButton" text="Register Now!" />
+                  <Label fx:id="presidentLabel" layoutX="379.0" layoutY="108.0" text="Label" />
+                  <Label layoutX="379.0" layoutY="172.0" text="Label" />
+                  <Label fx:id="vpLabel" layoutX="391.0" layoutY="230.0" prefHeight="25.0" prefWidth="54.0" text="VC" />
+                  <Label fx:id="gsLabel" layoutX="393.0" layoutY="298.0" text="Label" />
+                  <Text layoutX="343.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="General members :" wrappingWidth="104.0">
+                     <font>
+                        <Font name="Barlow Condensed ExtraLight" size="16.0" />
+                     </font></Text>
+                  <Text layoutX="365.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="President:" />
+                  <Text layoutX="354.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vice President:" />
+                  <Text layoutX="357.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="general Secretary:" />
+                  <Text layoutX="365.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Faculty Advisor:" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <Text fill="#beaaaa" layoutX="215.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLUB HUB">
+         <font>
+            <Font name="Bell MT Bold" size="30.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

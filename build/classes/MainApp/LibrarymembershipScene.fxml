@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="625.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainApp.LibrarymembershipSceneController">
+   <children>
+      <Text layoutX="119.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Become A member of the Library to access full opportunities" wrappingWidth="424.3730163574219">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Text>
+      <Label layoutX="154.0" layoutY="114.0" text="Name:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="154.0" layoutY="159.0" text="ID:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="152.0" layoutY="200.0" text="Email:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="148.0" layoutY="304.0" text="Address:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="150.0" layoutY="232.0" text="Department:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <ComboBox fx:id="deptComboBox" layoutX="331.0" layoutY="228.0" prefWidth="150.0" />
+      <Label fx:id="nameLabel" layoutX="378.0" layoutY="114.0" text="Label" />
+      <Label fx:id="idLabel" layoutX="378.0" layoutY="159.0" text="Label" />
+      <Label fx:id="emailLabel" layoutX="378.0" layoutY="191.0" text="Label" />
+      <Button layoutX="256.0" layoutY="496.0" mnemonicParsing="false" onAction="#registerOnClick" style="-fx-background-color: TURQUOISE;" text="Register">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="150.0" layoutY="452.0" text="Create new pin:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="memberPin" layoutX="331.0" layoutY="448.0" promptText="Create a 4 digit pin" />
+      <TextArea fx:id="addressfield" layoutX="331.0" layoutY="263.0" prefHeight="99.0" prefWidth="188.0" promptText="Enter your full address" />
+      <Text layoutX="149.0" layoutY="422.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact number:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Text>
+      <TextField fx:id="phoneNo" layoutX="331.0" layoutY="405.0" prefHeight="25.0" prefWidth="159.0" promptText="Enter your phone number" />
+      <Text layoutX="169.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fill up all the informations and click on &quot;Register&quot; button">
+         <font>
+            <Font name="Candara Italic" size="13.0" />
+         </font>
+      </Text>
+      <Separator layoutX="221.0" layoutY="82.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

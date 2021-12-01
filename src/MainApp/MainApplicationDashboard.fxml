@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="579.0" style="-fx-border-color: black; -fx-border-width: 3; -fx-background-color: white;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainApp.MainApplicationDashboardController">
+   <children>
+      <MenuBar fx:id="myMenuBar" layoutX="3.0" layoutY="104.0" prefHeight="25.0" prefWidth="573.0" style="-fx-background-color: PAPAYAWHIP;">
+        <menus>
+            <Menu mnemonicParsing="false" text="Home">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#CloseMenuItem" text="Exist" />
+               </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Events">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#ViewEventMenuItemOnClick" text="View Events" />
+                  <MenuItem mnemonicParsing="false" onAction="#viewNoticeOnClick" text="Notice" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" onAction="#OpenAlumniSceneOnclick" text="Alumni">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#OpenAlumniNetworkSceneOnclick" text="Alumni Network" />
+               </items></Menu>
+            <Menu mnemonicParsing="false" text="Faculty">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#TrainingFormMenuItemOnClick" text="Training Programs" />
+                  <MenuItem mnemonicParsing="false" onAction="#requestForEduMenuitem" text="Request for educational changes" />
+                  <MenuItem fx:id="reportIncidentButton" mnemonicParsing="false" onAction="#reportIncidentMenuItemOnClick" text="Report Incident" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="IUB Clubs">
+              <items>
+                  <MenuItem mnemonicParsing="false" onAction="#registerClubMenuItemOnclick" text="Register in Clubs" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Scholarship">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#requestScholarshipMenuItemOnClick" text="Request for scholarship" />
+                  <MenuItem mnemonicParsing="false" onAction="#ViewMeritListOnclick" text="View Merit List " />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="IUB resources">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#OpenDigitalLibrarySceneOnclick" text="Digital Library" />
+                  <MenuItem mnemonicParsing="false" onAction="#submitInquiryOnClick" text="Submit Enquiry " />
+                  <MenuItem mnemonicParsing="false" onAction="#OpenMentalCounsellingSceneOnclick" text="Mental counselling" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Career">
+              <items>
+                  <MenuItem mnemonicParsing="false" onAction="#OpenStudentNetworkSceneOnclick" text="Student network" />
+                  <MenuItem mnemonicParsing="false" onAction="#jobCircularMenuItemOnClick" text="Jobs on Campus" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Staff">
+               <items>
+                  <MenuItem fx:id="administrationMenuItem" mnemonicParsing="false" onAction="#openAdministrationSceneOnClick" text="Administration" />
+                  <MenuItem fx:id="citsMenuItem" mnemonicParsing="false" onAction="#openCITsSceneOnClick" text="CITS" />
+                  <MenuItem mnemonicParsing="false" text="Faculty" />
+               </items></Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="166.0" layoutY="22.0" prefHeight="59.0" prefWidth="255.0" text="Division Of Students Affairs" textAlignment="CENTER">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+         </font>
+      </Label>
+      <Text layoutX="448.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome back!" wrappingWidth="131.33331298828125">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="26.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Division of Student Affairsworks behind the scenes to keep you safe, healthy, and prepared for whatever comes next. Whether you need a tissue, a scholarship, or a lawyer, we’re here for you everyday." textAlignment="CENTER" wrappingWidth="518.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Text>
+      <Separator layoutX="78.0" layoutY="220.0" prefHeight="3.0" prefWidth="413.0" />
+      <Label fx:id="userNameLabel" layoutX="488.0" layoutY="63.0" text="username" />
+      <ImageView fx:id="imageview" fitHeight="92.0" fitWidth="138.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageview2" fitHeight="239.0" fitWidth="255.0" layoutX="289.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageview3" fitHeight="224.0" fitWidth="271.0" layoutX="26.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
