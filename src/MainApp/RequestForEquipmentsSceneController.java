@@ -21,11 +21,7 @@ import java.util.ArrayList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 
-/**
- * FXML Controller class
- *
- * @author Farha
- */
+
 public class RequestForEquipmentsSceneController implements Initializable {
 
     @FXML
