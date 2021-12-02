@@ -20,11 +20,6 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
-/**
- * FXML Controller class
- *
- * @author Farha
- */
 public class AddNewClubInfoController implements Initializable {
 
     @FXML
