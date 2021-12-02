@@ -22,11 +22,6 @@ import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
 
-/**
- * FXML Controller class
- *
- * @author Farha
- */
 public class BookAppointmentSceneController implements Initializable {
 
    
