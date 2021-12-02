@@ -7,10 +7,7 @@ package MainApp;
 
 import java.time.LocalDate;
 
-/**
- *
- * @author Farha
- */
+
 public interface UpdateEvent {
     
     public void addnewEvent(String type, String ename , String etime , String evenue,LocalDate date);
