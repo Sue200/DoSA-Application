@@ -5,10 +5,6 @@
  */
 package MainApp;
 
-/**
- *
- * @author Farha
- */
 public interface Library {
     
     public void applyForLibraryMembership(String name,String email,String address, String usertype, int id,int phoneNo,int pin);
