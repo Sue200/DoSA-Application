@@ -9,10 +9,7 @@ import java.io.Serializable;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 
-/**
- *
- * @author Farha
- */
+
 public class Product implements Serializable {
     
     private String productName;
