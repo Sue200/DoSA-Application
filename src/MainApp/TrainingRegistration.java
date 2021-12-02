@@ -5,10 +5,7 @@
  */
 package MainApp;
 
-/**
- *
- * @author Farha
- */
+
 public class TrainingRegistration extends Registration{
     private String reason,desig,choice;
     private int phoneNo; 
