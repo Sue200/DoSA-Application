@@ -35,11 +35,6 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
 import javafx.stage.Stage;
 
-/**
- * FXML Controller class
- *
- * @author Farha
- */
 public  class NoticeSceneController implements Initializable{
 
     @FXML
