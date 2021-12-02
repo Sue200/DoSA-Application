@@ -7,10 +7,7 @@ package MainApp;
 
 import java.io.Serializable;
 
-/**
- *
- * @author Farha
- */
+
 public class Club implements Serializable{
     
     private String description;
