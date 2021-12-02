@@ -18,11 +18,7 @@ import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javax.swing.JOptionPane;
 
-/**
- * FXML Controller class
- *
- * @author Farha
- */
+
 public class LeaveappController implements Initializable {
 
     
