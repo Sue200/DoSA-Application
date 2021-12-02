@@ -27,11 +27,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 
-/**
- * FXML Controller class
- *
- * @author Farha
- */
+
 public class JobCircularController implements Initializable {
 
     @FXML
