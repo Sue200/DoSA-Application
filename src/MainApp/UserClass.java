@@ -12,10 +12,7 @@ import java.io.ObjectInputStream;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-/**
- *
- * @author Farha
- */
+
 public class  UserClass implements Serializable {
    
      String ID;
