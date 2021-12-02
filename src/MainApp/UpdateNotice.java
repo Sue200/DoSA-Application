@@ -8,10 +8,7 @@ package MainApp;
 import java.time.LocalDate;
 import javafx.collections.ObservableList;
 
-/**
- *
- * @author Farha
- */
+
 public interface UpdateNotice {
     
     public Notice addnewnotice(String announcement, LocalDate date);
