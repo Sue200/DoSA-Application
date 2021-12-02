@@ -5,10 +5,7 @@
  */
 package MainApp;
 
-/**
- *
- * @author Farha
- */
+
 public class LibraryMembership {
     
     private String name, email, address, usertype;
