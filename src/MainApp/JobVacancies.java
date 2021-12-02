@@ -8,10 +8,7 @@ package MainApp;
 import java.time.LocalDate;
 import javafx.collections.ObservableList;
 
-/**
- *
- * @author Farha
- */
+
 public interface JobVacancies{
     
     public void addnewJobPost(String jobname,String orgname, String jobdescript,LocalDate deadline);
