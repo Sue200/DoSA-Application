@@ -17,10 +17,7 @@ import java.util.logging.Logger;
 import javafx.collections.ObservableList;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Farha
- */
+
 public class Faculty extends UserClass implements Serializable,ReportIncident,JobVacancies,UpdateEvent,UpdateNotice,Library{
      private String name, email;
 
