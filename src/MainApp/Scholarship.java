@@ -5,10 +5,7 @@
  */
 package MainApp;
 
-/**
- *
- * @author Farha
- */
+
 public class Scholarship extends Student{
     
     private String name, id, email, previousWaiver, reasonForApp, typeofwaiver;
