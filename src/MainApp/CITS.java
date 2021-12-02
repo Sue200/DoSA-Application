@@ -18,10 +18,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javafx.collections.ObservableList;
 
-/**
- *
- * @author Farha
- */
+
 public class CITS extends UserClass implements Serializable,UpdateEvent,JobVacancies,UpdateNotice{
      
     private String name, email;
