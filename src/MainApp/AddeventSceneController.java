@@ -16,11 +16,7 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextField;
 
-/**
- * FXML Controller class
- *
- * @author Farha
- */
+
 public class AddeventSceneController implements Initializable,Serializable {
 
     @FXML
