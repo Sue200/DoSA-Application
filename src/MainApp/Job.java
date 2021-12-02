@@ -8,10 +8,7 @@ package MainApp;
 import java.io.Serializable;
 import java.time.LocalDate;
 
-/**
- *
- * @author Farha
- */
+
 public class Job implements Serializable {
     
     private String jobname, jobOrg, jobDescription;
