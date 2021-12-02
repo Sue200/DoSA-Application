@@ -29,11 +29,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 
-/**
- * FXML Controller class
- *
- * @author Farha
- */
+
 public class AddUserSceneController implements Initializable,Serializable {
 
     @FXML
