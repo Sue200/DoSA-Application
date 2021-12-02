@@ -26,11 +26,6 @@ import javafx.scene.control.TextArea;
 import javafx.stage.Stage;
 import javax.swing.JOptionPane;
 
-/**
- * FXML Controller class
- *
- * @author Farha
- */
 public class ClubRegistrationSceneController implements Initializable {
 
     @FXML
