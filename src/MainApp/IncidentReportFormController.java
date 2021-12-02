@@ -26,11 +26,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
-/**
- * FXML Controller class
- *
- * @author Farha
- */
+
 public class IncidentReportFormController implements Initializable {
 
     @FXML
