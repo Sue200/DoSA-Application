@@ -29,11 +29,6 @@ import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 import javax.swing.JOptionPane;
 
-/**
- * FXML Controller class
- *
- * @author Farha
- */
 public class MainApplicationDashboardController implements Initializable,Serializable {
 
    
