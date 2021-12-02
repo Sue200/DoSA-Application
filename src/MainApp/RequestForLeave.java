@@ -12,10 +12,7 @@ import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javax.lang.model.SourceVersion;
 
-/**
- *
- * @author Farha
- */
+
 public abstract class RequestForLeave {
     
     
