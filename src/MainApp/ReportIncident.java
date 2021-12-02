@@ -5,10 +5,7 @@
  */
 package MainApp;
 
-/**
- *
- * @author Farha
- */
+
 public interface ReportIncident {
     
     public void incidentReportApplication(String level, String name,String desig, String address, String incident,int id, int phoneNo);
