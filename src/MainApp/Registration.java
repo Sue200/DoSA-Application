@@ -5,10 +5,7 @@
  */
 package MainApp;
 
-/**
- *
- * @author Farha
- */
+
 public  class Registration {
     
      private String name;
