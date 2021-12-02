@@ -8,10 +8,7 @@ package MainApp;
 import java.io.Serializable;
 import java.time.LocalDate;
 
-/**
- *
- * @author Farha
- */
+
 public class Eventpicker  implements Serializable {
    // private static final long serialVersionUID = 6424129408819760362L;
    // private static final long serialVersionUID = 6529685098267757690L;
