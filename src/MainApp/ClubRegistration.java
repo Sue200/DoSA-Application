@@ -7,10 +7,7 @@ package MainApp;
 
 import java.io.Serializable;
 
-/**
- *
- * @author Farha
- */
+
 public class ClubRegistration extends Registration implements Serializable {
     
     private String clubName, reasonForJoin;
