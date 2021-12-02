@@ -13,10 +13,7 @@ import java.io.Serializable;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Farha
- */
+
 public  class StudentNetworkRegistration extends Registration implements Serializable{
     
     private String linkedIn, goals;
