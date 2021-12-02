@@ -7,10 +7,7 @@ package MainApp;
 
 import java.io.Serializable;
 
-/**
- *
- * @author Farha
- */
+
 public class IncidentReport implements Serializable{
     
         private String name, position , address, incidentDescript;
