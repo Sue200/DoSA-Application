@@ -15,10 +15,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javafx.beans.property.SimpleStringProperty;
 
-/**
- *
- * @author Farha
- */
+
 public class Notice implements Serializable {
     
   private String announcement;
