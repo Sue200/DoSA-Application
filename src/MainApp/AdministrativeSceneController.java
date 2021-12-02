@@ -17,11 +17,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-/**
- * FXML Controller class
- *
- * @author Farha
- */
+
 public class AdministrativeSceneController implements Initializable {
 
     /**
