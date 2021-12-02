@@ -26,11 +26,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.stage.Stage;
 
-/**
- * FXML Controller class
- *
- * @author Farha
- */
+
 public class ViewMeritListSceneController implements Initializable {
 
     @FXML
