@@ -8,10 +8,7 @@ package MainApp;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- *
- * @author Farha
- */
+
 public class Validation {
     
     public boolean validateid(String id){
