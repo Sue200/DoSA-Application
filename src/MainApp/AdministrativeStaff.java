@@ -40,10 +40,6 @@ import javafx.scene.chart.PieChart;
 import javafx.scene.control.Alert;
 import javafx.stage.FileChooser;
 
-/**
- *
- * @author Farha
- */
 public class AdministrativeStaff extends UserClass implements Serializable,UpdateEvent,UpdateNotice {
         private String name, email;
          private transient ObjectInputStream ois ;
