@@ -8,10 +8,7 @@ package MainApp;
 import java.io.Serializable;
 import java.time.LocalDate;
 
-/**
- *
- * @author Farha
- */
+
 public  class Eventregistration extends Registration implements Serializable{
     
     private String selectedEvent, eventname,eventvenue, eventTime, sem;
