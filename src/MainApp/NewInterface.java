@@ -5,10 +5,6 @@
  */
 package MainApp;
 
-/**
- *
- * @author Farha
- */
 public interface NewInterface {
     
 }
