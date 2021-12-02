@@ -7,10 +7,7 @@ package MainApp;
 
 import java.io.Serializable;
 
-/**
- *
- * @author Farha
- */
+
 public class AlumniNetworkRegistration extends Registration implements Serializable{
     
     private String major, currentStatus, linkedIn;
