@@ -15,10 +15,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javafx.collections.ObservableList;
 
-/**
- *
- * @author Farha
- */
+
 public class Alumni extends UserClass implements Serializable,JobVacancies,Library {
     private String name , email;
     
